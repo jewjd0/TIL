@@ -58,21 +58,21 @@
   - 지금 작업중인 곳이 어떤 상황인지 확인
   - 습관적으로 확인하면 좋음
   - 비어있으면 no commits yet 이런거 뜬다
-  ![alt text](image.png)
+  ![alt text](images/image.png)
 ### git add
   - 변경사항이 있는 파일을 staging area에 추가
   - .git 파일에 임시 파일 형태로 등록되어있음
-  ![alt text](image-1.png)
+  ![alt text](images/image-1.png)
 ### git commit
   - staging area에 있는 파일들을 저장소에 기록
     - 해당 시점의 버전을 생성, 변경 이력 남김
   - git commit -m
     - 커밋 메시지 추가
     - 뭘 수정했는지 알 수 있게 직관적으로 작성하기
-      ![alt text](image-2.png)
+      ![alt text](images/image-2.png)
   - 파일을 누가 수정했는지 알 수 있게 해줘야함
     - 어느 저장소에 저장할지 지정
-    ![alt text](image-3.png)
+    ![alt text](images/image-3.png)
     - 엄밀히 말해 로그인이 아님. 그냥 누가했는지 메모해둔 것.
 ### git log
   - commit한 기록, 메시지 저장되어 있음
@@ -81,11 +81,11 @@
     - 사용하지말기. 계속 누가 커밋중인지 확인할것.
 ### gitconfig
   - 일일히 계정바꾸기 귀찮으니 해당 명령어로 vscode에서 gitconfig 파일 열어서 직접 바꿔준다.
-![alt text](image-4.png)
+![alt text](images/image-4.png)
   - gitconfig 파일 열리면 직접 바꾸기
-![alt text](image-5.png)
+![alt text](images/image-5.png)
   - 변경된 로그
-    ![alt text](image-6.png)
+    ![alt text](images/image-6.png)
   - git config --list
     - CLI에서 바로 확인하는 방법
 ### git config --global -l
